@@ -1,9 +1,3 @@
-
-function clearForm() {
-    document.getElementById("mail").reset();
-    alert("Mail sent")
-}
-
 $(document).ready(function()
 {
     // navbar shrink
