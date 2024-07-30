@@ -434,26 +434,7 @@ a,a:hover
     color: var(--black-900);
     font-weight: 500;
 }
-.hire-me
-{
-    background-color: var(--main-color);
-    padding: 10px 20px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 30px;
-    color: var(--white);
-    font-size: 16px;
-    text-transform: capitalize;
-    display: inline-block;
-    box-shadow: var(--shadow-black-300);
-    font-weight: 500;
-    transition: all 0.5s ease;
-}
-.hire-me:hover
-{
-    background-color: var(--white);
-    color: var(--main-color);
-}
+
 #skill-bar-wrapper
 {
     margin-top: 0px;
@@ -468,7 +449,7 @@ a,a:hover
 {
     position: relative;
     display: block;
-    margin-top: 15px;
+    margin-top: 5px;
     width: 100%;
     background-color: rgba(187,23,23,0.1);
     height: 5px;
@@ -660,6 +641,11 @@ a,a:hover
     height: 140px;
     padding: 12px;
     resize: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-form .form-control:focus
 {
