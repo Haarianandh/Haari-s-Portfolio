@@ -465,8 +465,10 @@ a,a:hover
 .single-work
 {
     position: relative;
- 
     margin-bottom: 30px;
+}
+.row-grid{
+    margin-top: 0;
 }
 .single-work .work-image img
 {
